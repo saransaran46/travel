@@ -1,0 +1,103 @@
+.trip-container {
+  width: 350px;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+  color: white;
+  position: sticky;
+  top: 0;
+  background-color: #13332e;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.field {
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+  width: 100%; /* Ensure it fits within the container */
+}
+.form-groups {
+  display: flex;
+  margin-bottom: 15px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-groups label {
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-label {
+  color: rgb(82, 150, 233);
+}
+
+.form-group label {
+  display: flex;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: calc(100% - 16px); /* Adjust for padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Prevents width overflow */
+}
+
+textarea {
+  height: 60px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.radio-groups {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.radiosize {
+  width: 15px !important;
+  height: 15px !important;
+}
+.submit-btn {
+  width: 328px;
+  padding: 10px;
+  border: none;
+  background: green;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background: green;
+}
+.error {
+  color: red;
+  padding-left: 10px !important;
+}

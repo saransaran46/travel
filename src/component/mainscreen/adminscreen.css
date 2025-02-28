@@ -1,0 +1,137 @@
+/* Center the card */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  padding: 0px 15px;
+  border-radius: 10px;
+  box-shadow: -2px -1px 18px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Card body layout */
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.card-bodys { 
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+/* Title and status */
+.card-title {
+  font-size: 18px;
+  color: #333;
+  flex: 1;
+  display: flex;
+  justify-content:flex-start ;
+}
+.title-card {
+  font-weight: bold;
+}
+
+.card-status {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+/* Status Styling */
+.approved {
+  color: green;
+  font-weight: bold;
+}
+
+.rejected {
+  color: red;
+  font-weight: bold;
+}
+
+/* Date styling */
+.card-date,
+.card-dateEnd {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button styles */
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.approve {
+  background-color: green;
+  color: white;
+}
+
+.reject {
+  background-color: red;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+  }
+
+  .card-body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-status {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 10px; /* Adds spacing between grid items */
+    padding: 10px 0px;
+    background: #fff; 
+    border-radius: 8px;
+    max-width: 500px; /* Adjust width as needed */
+    justify-items: start;
+  }
+  
+  .card-container h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-container span {
+    font-weight: normal;
+    color: #333;
+  }
+  
