@@ -1,16 +1,16 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Login from "../component/login/login"; // Ensure correct path
-import Signup from "../component/signup/signup"; // Ensure correct path
-import Mainscreen from "../component/mainscreen/mainscreen"; // Ensure correct path
-import Travelform from "../component/mainscreen/travelform"; // Ensure correct path
+import Login from "../component/login/login";
+import Signup from "../component/signup/signup";
+import Mainscreen from "../component/mainscreen/mainscreen";
+import Travelform from "../component/mainscreen/travelform";
 const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
   },
   {
-    path: "/signup",
+    path: "/",
     element: <Signup />,
   },
   {

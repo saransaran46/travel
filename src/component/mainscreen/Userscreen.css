@@ -9,12 +9,12 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 90%;
+    width: 35%;
 }
 .header {
   top: 0;
   height: 50px;
-  width: 62%;
+  width: 34%;
   background-color: white;
   position: sticky;
   align-items: center;

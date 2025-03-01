@@ -80,3 +80,20 @@
     margin-bottom: 20px;
   }
   
+
+  .signin-text {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .signin-link {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signin-link:hover {
+    text-decoration: underline;
+  }
+  

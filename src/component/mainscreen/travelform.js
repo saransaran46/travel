@@ -130,9 +130,6 @@ const Travelform = () => {
             >
               <option value="By Flight">By Flight</option>
               <option value="By Train">By Train</option>
-              <option value="By Train">By Car</option>
-              <option value="By Train">By Bus</option>
-              <option value="By Train">By Bike</option>
             </select>
             {errors.travel_mode && (
               <span className="error">{errors.travel_mode}</span>
